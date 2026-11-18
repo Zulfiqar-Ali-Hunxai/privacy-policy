@@ -1,67 +1,141 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 850px;
-            margin: 40px auto;
-            padding: 20px;
-            line-height: 1.7;
-            color: #333;
-        }
-        h1, h2 {
-            color: #245BC0;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Privacy Policy for ScanVexa document scanner and PDF utility app.">
+  <title>Privacy Policy - ScanVexa</title>
+  <style>
+    :root { color-scheme: light; --primary:#3157d5; --teal:#168fad; --ink:#253047; --muted:#65718a; --surface:#fff; --bg:#f4f7ff; }
+    * { box-sizing:border-box; }
+    body { margin:0; padding:32px 16px; background:var(--bg); color:var(--ink); font:16px/1.7 Arial,Helvetica,sans-serif; }
+    main { max-width:900px; margin:0 auto; }
+    .hero { padding:36px 24px; text-align:center; color:#fff; border-radius:24px; background:linear-gradient(135deg,var(--primary),var(--teal)); }
+    .shield { display:inline-grid; place-items:center; width:70px; height:70px; margin-bottom:12px; border-radius:20px; background:#fff; color:#159b70; font-size:35px; }
+    h1 { margin:0; font-size:30px; line-height:1.25; }
+    .hero p { margin:10px 0 0; color:rgba(255,255,255,.92); }
+    .date { display:inline-block; margin-top:18px; padding:5px 13px; border-radius:30px; background:rgba(255,255,255,.18); font-size:13px; font-weight:600; }
+    .intro { margin:22px 0; padding:20px; border:1px solid #dce5ff; border-radius:18px; background:#edf2ff; }
+    h2 { margin:30px 0 12px; color:var(--primary); font-size:21px; }
+    .card { margin:0 0 12px; padding:19px; border:1px solid #e5e9f2; border-radius:17px; background:var(--surface); }
+    h3 { margin:0 0 10px; font-size:17px; }
+    p { margin:0 0 10px; }
+    p:last-child { margin-bottom:0; }
+    ul { margin:8px 0 0; padding-left:24px; }
+    li { margin:7px 0; }
+    footer { padding:28px 12px 8px; text-align:center; color:var(--muted); font-size:13px; }
+    footer strong { display:block; color:var(--ink); font-size:16px; }
+    a { color:var(--primary); }
+    @media (max-width:600px) { body { padding:16px 12px; } .hero { padding:28px 18px; } h1 { font-size:26px; } h2 { font-size:19px; } .card { padding:16px; } }
+  </style>
 </head>
 <body>
+<main>
+  <header class="hero">
+    <div class="shield" aria-hidden="true">♧</div>
+    <h1>Privacy Policy</h1>
+    <p>Learn how ScanVexa accesses, uses, and protects your information.</p>
+    <div class="date">Last Updated: November 14, 2026</div>
+  </header>
 
-<h1>Privacy Policy</h1>
-<p>Last Updated: November 18, 2026</p>
+  <section class="intro">
+    <h3>Privacy Policy for ScanVexa</h3>
+    <p>Welcome to ScanVexa. This Privacy Policy explains how our application accesses and uses information when you scan documents, select images, convert files, and use other app features.</p>
+    <p>By using ScanVexa, you acknowledge that you have read this policy. Please review it carefully to understand your privacy choices.</p>
+  </section>
 
-<p>
-    This Privacy Policy describes how [App Name] handles user information.
-</p>
+  <h2>Information We Access</h2>
+  <section class="card"><h3>Camera Access</h3>
+    <p>ScanVexa uses your device camera when you choose to scan documents, ID cards, passports, receipts, or other physical documents.</p>
+    <p>Camera access is used to capture images for scanning and document processing. The camera is not intended to operate in the background.</p>
+  </section>
+  <section class="card"><h3>Gallery and Photo Access</h3>
+    <p>ScanVexa may access photos or images that you select from your device when using features such as Image to PDF, Image to Text, image enhancement, and PDF-related tools.</p>
+    <p>Access is used to process the files you choose for the operation you request. Depending on the Android version and file selection method, access may be limited to selected items or may require broader media permission.</p>
+  </section>
+  <section class="card"><h3>Files and Document Access</h3>
+    <p>ScanVexa needs access to selected documents when you use document-related features.</p>
+    <p>This includes selecting PDFs, saving generated documents, managing scanned files, and exporting converted images or PDFs to your device.</p>
+    <p>Your files are accessed to perform the operation you request.</p>
+  </section>
+  <section class="card"><h3>Internet Access</h3>
+    <p>ScanVexa uses an internet connection for supported online services, advertising delivery, and communication with required third-party SDKs.</p>
+    <p>An internet connection may be required for certain network-dependent functionality. Local document operations can work without an internet connection where the relevant feature and its dependencies support offline processing.</p>
+  </section>
 
-<h2>Information We Collect</h2>
-<p>
-    We may collect information such as device information,
-    usage data, and other information necessary to provide
-    our services.
-</p>
+  <h2>How We Use Your Information</h2>
+  <section class="card"><h3>Document Scanning</h3>
+    <p>Images captured using the scanner are used to create digital copies of your physical documents, including A4 pages, identity cards, passports, and receipts.</p>
+  </section>
+  <section class="card"><h3>AI Image Upscaling</h3>
+    <p>The AI image upscaling feature processes an image to improve its resolution and visual quality.</p>
+    <p>Where the installed AI model supports on-device processing, the enhancement is performed on your device. The feature uses the image you select for the requested enhancement.</p>
+  </section>
+  <section class="card"><h3>Document and PDF Tools</h3>
+    <p>ScanVexa uses selected files to provide the following tools:</p>
+    <ul>
+      <li>Image to PDF – converts selected images into PDF files.</li>
+      <li>Image to Text – extracts text from selected images.</li>
+      <li>Document Compressor – reduces supported document or image file sizes.</li>
+      <li>Merge PDF – combines multiple PDF files.</li>
+      <li>Split PDF – separates PDF documents into individual files.</li>
+      <li>PDF to Images – converts PDF pages into image files.</li>
+    </ul>
+  </section>
 
-<h2>How We Use Information</h2>
-<p>
-    We use collected information to improve app functionality,
-    provide services, and maintain app security.
-</p>
+  <h2>Advertising and Third-Party Services</h2>
+  <section class="card"><h3>Google Mobile Ads</h3>
+    <p>ScanVexa may display advertisements through Google Mobile Ads services.</p>
+    <p>Advertising partners may collect or process certain information, such as advertising identifiers, device information, IP address, ad interactions, and diagnostic information, depending on the applicable SDK configuration and your device settings.</p>
+    <p>This information may be used for ad delivery, measurement, fraud prevention, and advertising personalization where permitted by law and your consent or device settings.</p>
+    <p>Advertising providers handle information under their own privacy policies.</p>
+  </section>
+  <section class="card"><h3>Third-Party Services</h3>
+    <p>Some features of ScanVexa may rely on third-party software libraries or services. These providers may process limited technical information needed to provide their services.</p>
+    <p>Third-party providers operate under their own privacy policies and terms. We encourage users to review those policies.</p>
+  </section>
 
-<h2>Third-Party Services</h2>
-<p>
-    Our application may use third-party services such as
-    Google AdMob and Google Firebase.
-</p>
+  <h2>Data Storage and Security</h2>
+  <section class="card"><h3>Storage on Your Device</h3>
+    <p>Scanned documents, converted files, and other outputs may be saved in locations on your device that are used by ScanVexa or selected by you.</p>
+    <p>Files saved on your device remain there until you delete them or remove the app, subject to your device settings and file storage location.</p>
+    <p>Files exported to other folders or shared with other applications may be managed independently of ScanVexa.</p>
+  </section>
+  <section class="card"><h3>Security</h3>
+    <p>We aim to handle information responsibly and use appropriate measures to protect information processed by the app.</p>
+    <p>However, no method of electronic storage or transmission can be guaranteed to be completely secure. Users should also protect their devices and avoid sharing sensitive documents with untrusted applications or people.</p>
+  </section>
 
-<h2>Data Security</h2>
-<p>
-    We take reasonable measures to protect user information.
-</p>
+  <h2>Your Privacy Choices</h2>
+  <section class="card"><h3>Permission Control</h3>
+    <p>You can manage or revoke camera, photos, media, and file permissions through your Android device settings.</p>
+    <p>If you deny a permission, the feature that requires it may not work until you grant access.</p>
+  </section>
+  <section class="card"><h3>Deleting Your Documents</h3>
+    <p>You can delete saved documents and generated files from the storage location where they are saved.</p>
+    <p>If you uninstall ScanVexa, app-specific data may be removed by Android. Files saved in shared or user-selected locations may remain on your device and may need to be deleted separately.</p>
+  </section>
+  <section class="card"><h3>Advertising Preferences</h3>
+    <p>You may be able to manage advertising personalization and reset or limit your device advertising identifier through your Android privacy or advertising settings.</p>
+  </section>
 
-<h2>Children's Privacy</h2>
-<p>
-    Our application does not knowingly collect personal
-    information from children without appropriate consent.
-</p>
+  <h2>Children’s Privacy</h2>
+  <section class="card"><h3>Children’s Information</h3>
+    <p>ScanVexa is a general-purpose document scanning and PDF utility application. It is not intended to knowingly collect personal information from children without the required consent.</p>
+    <p>If you believe a child has provided personal information in a way that requires our attention, please contact us.</p>
+  </section>
 
-<h2>Contact Us</h2>
-<p>
-    Email: your-email@example.com
-</p>
+  <h2>Changes to This Policy</h2>
+  <section class="card"><h3>Policy Updates</h3>
+    <p>We may update this Privacy Policy when app features, services, technologies, or applicable requirements change.</p>
+    <p>Any updated version will be made available within the application or through our official privacy policy webpage. The latest update date will be displayed at the top of the policy.</p>
+  </section>
 
+  <footer>
+    <strong>ScanVexa</strong>
+    <p>Scan. Enhance. Organize.</p>
+    <p>© 2026 ScanVexa. All rights reserved.</p>
+  </footer>
+</main>
 </body>
 </html>
